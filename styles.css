@@ -1,0 +1,612 @@
+body{
+  background-color: #FAF7F0;
+  height: 100%;
+  width: auto!important;
+  overflow-x: hidden!important;
+  font-family: "Montserrat";
+  position: relative;
+
+}
+
+
+
+/* Nav Bar */
+a:hover{
+  color: white;
+  opacity: 0.6;
+}
+
+/* Price Tags For Each Item */
+h6 {
+font-size: 1.1rem;
+font-weight: bold;
+}
+
+#page-container-all-items{
+  position: relative;
+  height: 2000px;
+  width: 1440;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#all-item-description-div {
+  text-align: left;
+  height: 1200px;
+}
+
+
+
+#main-page-items {
+  text-align: center;
+}
+
+
+#collections {
+  text-align: center;
+  width: 100%;
+}
+
+
+
+.row{
+  padding: 3% 10%;
+}
+
+/* Main Page */
+.navbar{
+  background-color: black;
+  color: white;
+}
+
+.nav-link {
+  color: white;
+}
+
+
+
+
+ @media (max-width: 650px) {
+  .sunset2div {
+    width: 100%;
+    height: 390px;
+  }
+}
+
+
+.sunset2img{
+  height: 1300px;
+  width: 100%;
+  position: relative;
+}
+
+
+
+@media (max-width: 650px) {
+  .sunset2img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 10%;
+  }
+}
+
+
+
+
+
+/* 2 Picture Collections (tops/dresses) */
+
+
+
+/*
+.main-page-tops-img{
+  height: 650px;
+  width: 480px;
+  margin-top: 50px;
+  margin-left: 2px;
+}
+*/
+
+
+@media (max-width: 650px) {
+  .main-page-tops-img {
+    height: 100%;
+    width: 100%;
+/*   position: absolute;
+    top: 600px;
+    right: 0%;
+    left: 0%;
+    margin-left: 15%;
+*/
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 650px) {
+  .main-page-tops-collection-div {
+    height: 75%;
+    width: 80%;
+    position: absolute;
+    top: 70%;
+    margin: 10%;
+
+  }
+}
+
+/*
+.main-page-dress-img{
+  height: 650px;
+  width: 480px;
+  margin-top: 50px;
+  margin-left: 2px;
+}
+*/
+
+@media (max-width: 650px) {
+  .main-page-dress-img {
+    height: 100%;
+    width: 100%;
+
+
+  }
+}
+
+/*
+.main-page-dresses-collection-div{
+  height: 780px;
+  width: 580px;
+  float: left;
+  position: absolute;
+  top: 950px;
+  right: 100px;
+  background-color: #FAF7F0;
+}
+*/
+
+
+ @media (max-width: 650px) {
+  .main-page-dresses-collection-div {
+    height: 75%;
+    width: 80%;
+    position: absolute;
+    top: 170%;
+    margin: 10%;
+  }
+}
+
+/*
+.tops-dresses-collections{
+  height: 2000px;
+}
+*/
+
+
+/*
+@media (max-width: 600px) {
+  .tops-dresses-collections {
+    height: 1000px;
+  }
+}
+*/
+
+
+
+/*
+.main-page-tops-details{
+  text-align: center;
+  padding-top: 20px;
+}
+*/
+
+
+@media (max-width: 650px) {
+  .main-page-tops-details {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+
+  }
+}
+
+/*
+.main-page-dresses-details{
+  padding-top: 20px;
+}
+*/
+
+@media (max-width: 650px) {
+  .main-page-dresses-details {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+}
+
+
+
+
+/* Main Page 'P' Media Query (Tops and Dresses) */
+
+
+ @media (max-width: 650px) {
+  .tops-click-for-more-info{
+    text-align: center;
+    font-weight: bolder;
+
+  }
+}
+
+@media (max-width: 650px) {
+  .dresses-click-for-more-info {
+    text-align: center;
+    font-weight: bolder;
+  }
+}
+
+
+/*
+.fall-details{
+  text-align: center;
+  font-size: 1.5rem;
+}
+*/
+
+ @media (max-width: 650px) {
+  .fall-details {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+  }
+}
+/*
+.fall-collection-div{
+  height: 900px;
+  width: 1100px;
+  float: right;
+  position: absolute;
+  top: 2000px;
+  right: 180px;
+  background-color: #FAF7F0;
+}
+*/
+
+ @media (max-width: 650px) {
+  .fall-collection-div {
+    height: 60%;
+    width: 100%;
+    position: absolute;
+    top: 280%;
+
+  }
+}
+
+
+
+
+ @media (max-width: 650px) {
+  .fall-img {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+
+
+
+/* Tops */
+.tops-title{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+
+
+/* Descriptions for every item */
+.descriptions{
+  padding-top: 10px;
+}
+
+
+
+/* Page 1 Top 1*/
+.individual-item-img{
+  height: 700px;
+  width: 550px;
+  position: absolute;
+  top: 150px;
+  left: 200px;
+
+}
+
+@media (max-width: 700px) {
+  .individual-item-img {
+    height: 30%;
+    width: 75%;
+    position: absolute;
+    top: 8%;
+    left: 13%;
+  }
+}
+
+.select-size-button{
+  color: white;
+  width: 155px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+
+@media (max-width: 700px) {
+  .select-size-button {
+    color: white;
+    position: absolute;
+    top: -50px;
+    left: 70px;
+    width: 160px;
+    padding: 10px;
+
+  }
+}
+
+.add-to-shopping-bag-button{
+  margin-top: 30px;
+  padding: 10px;
+  width: 240px;
+}
+
+
+@media (max-width: 700px) {
+  .add-to-shopping-bag-button {
+    width: 170px;
+    height: 50px;
+    position: absolute;
+    top: 15px;
+    left: 65px;
+
+  }
+}
+
+/* Page 3 Dresses */
+
+.all-items-listed-img{
+  height: 300px;
+  width: 280px;
+}
+
+@media (max-width: 700px) {
+  .all-items-listed-img {
+    height: 230px;
+    width: 170px;
+  }
+}
+
+@media (min-width: 701px) {
+  .all-items-listed-div li {
+    display: inline;
+    float: left;
+    padding: 20px 70px 80px;
+    position: relative;
+    right: 6%;
+}
+
+}
+
+@media (max-width: 700px) {
+  .all-items-listed-div li {
+    display:  inline;
+    float: left;
+    padding: 2% 2% 10%;
+    position: relative;
+    width: 50%;
+    right: 6%;
+
+    }
+}
+
+
+
+.individual-item-description {
+  width: 300px;
+  position: absolute;
+  top: 230px;
+  left: 1000px;
+  right: 20px;
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+}
+
+@media (max-width: 700px) {
+  .individual-item-description {
+    position: absolute;
+    top: 63%;
+    left: 3%;
+    color: black;
+    width: 100%;
+    padding: 3%;
+    margin-top: 5%;
+    font-family: "Montserrat";
+    font-size: 1rem;
+    text-align: left;
+  }
+}
+
+@media (max-width: 700px) {
+  .individual-dropdown {
+    position: absolute;
+    top: -90%;
+    left: 5%;
+  }
+}
+
+
+.individual-item-title{
+  text-align: left;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+@media (max-width: 700px) {
+  .individual-item-title {
+    text-align: left;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 700px) {
+  .individual-price {
+    position: absolute;
+    top: -25%;
+    left: 5%;
+    font-size: 1.5rem;
+  }
+}
+/* FOOTER */
+
+#footer {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+
+@media (max-width: 650px) {
+  #footer {
+    text-align: center;
+    position: absolute;
+    top: 370%;
+    width: 100%;
+    padding-bottom: 10%;
+  }
+}
+
+
+
+#footer-all-tops {
+  text-align: center;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+
+}
+
+@media (max-width: 650px) {
+  #footer-all-tops {
+    text-align: center;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+  }
+}
+
+
+#individual-item-footer {
+  text-align: center;
+  position: absolute;
+  left:
+  top: 120%;
+  width: 100%;
+  padding-bottom: 0%;
+}
+
+@media (max-width: 700px) {
+  #individual-item-footer {
+    text-align: center;
+    position: absolute;
+    left:
+    top: 120%;
+    width: 100%;
+    padding-bottom: 0%;
+  }
+}
+.social-icon {
+
+  margin: 20px 20px;
+}
+
+
+
+
+/* NEW NAVBAR TEST */
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+@media (max-width: 700px) {
+.overlay {
+  height: 100%;
+  width: 50%;
+}
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-width: 700px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+
+
+
+.my-logo-name {
+  display: inline-block;
+  color: black;
+  padding-left: 5px;
+}
